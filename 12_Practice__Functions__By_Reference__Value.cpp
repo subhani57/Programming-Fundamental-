@@ -216,8 +216,8 @@ void printPythagoreanTriplet(int x = 500) {
 //The functions receive the limit up to which triplets needs to be checked which is
 //by default 500.
 
-int main()
-{
-	printPythagoreanTriplet(100);
-	cout << GCD(3, 4);
-}
+//int main()
+//{
+//	printPythagoreanTriplet(100);
+//	cout << GCD(3, 4);
+//}
