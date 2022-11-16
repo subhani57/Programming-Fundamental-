@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="_05_Practice__Repetition_Nested.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="_06_Practice__Arithmetic_Operators__Data_Types__Input.cpp">
@@ -39,18 +39,15 @@
     <ClCompile Include="13_Practice__Arrays__1D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="15_Practice__Arrays__1D_Arrays__Paralell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="17_Practice__Arrays_2D__V1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="_06_Practice__Arithmetic_Operators__Data_Types__Input.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="_07_Practice__Input__Type_Coercion__Type_Casting.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="_08_Practice__Conditional_Structure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

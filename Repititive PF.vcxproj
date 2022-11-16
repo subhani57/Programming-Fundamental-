@@ -142,7 +142,9 @@
     <ClCompile Include="10_Practice__Repetition_Structure.cpp" />
     <ClCompile Include="12_Practice__Functions__By_Reference__Value.cpp" />
     <ClCompile Include="13_Practice__Arrays__1D.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="15_Practice__Arrays__1D_Arrays__Paralell.cpp" />
+    <ClCompile Include="17_Practice__Arrays_2D__V1.cpp" />
+    <ClCompile Include="_05_Practice__Repetition_Nested.cpp" />
     <ClCompile Include="11_Practice__Functions.cpp" />
     <ClCompile Include="_06_Practice__Arithmetic_Operators__Data_Types__Input.cpp" />
     <ClCompile Include="_07_Practice__Input__Type_Coercion__Type_Casting.cpp" />
@@ -150,9 +152,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="_06_Practice__Arithmetic_Operators__Data_Types__Input.h" />
-    <ClInclude Include="_07_Practice__Input__Type_Coercion__Type_Casting.h" />
-    <ClInclude Include="_08_Practice__Conditional_Structure.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Repititive PF.rc" />
