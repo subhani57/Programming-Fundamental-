@@ -141,11 +141,19 @@
   <ItemGroup>
     <ClCompile Include="10_Practice__Repetition_Structure.cpp" />
     <ClCompile Include="12_Practice__Functions__By_Reference__Value.cpp" />
-    <ClCompile Include="13_Practice__Arrays__1D.cpp" />
+    <ClCompile Include="13_Practice__Arrays__1D.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="15_Practice__Arrays__1D_Arrays__Paralell.cpp" />
     <ClCompile Include="17_Practice__Arrays_2D__V1.cpp" />
+    <ClCompile Include="17_Practice__Arrays_2D__V2.cpp" />
+    <ClCompile Include="Mystring.cpp" />
     <ClCompile Include="DataBase.cpp" />
+    <ClCompile Include="pointers in c++.cpp" />
     <ClCompile Include="pointers.cpp" />
+    <ClCompile Include="practice1.cpp" />
     <ClCompile Include="_05_Practice__Repetition_Nested.cpp" />
     <ClCompile Include="11_Practice__Functions.cpp" />
     <ClCompile Include="_06_Practice__Arithmetic_Operators__Data_Types__Input.cpp" />
@@ -153,6 +161,7 @@
     <ClCompile Include="_08_Practice__Conditional_Structure.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyString.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
